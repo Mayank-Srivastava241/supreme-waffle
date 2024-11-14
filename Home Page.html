@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Ordering - Homepage</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0000;
+      color: #333;
+    }
+    .header {
+      background-color: #262626;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-size: 24px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 150px;
+      gap: 20px;
+    }
+    .shop-card {
+      background-color: orange;
+      width: 200px;
+      height: 150px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      color: #131212;
+      cursor: pointer;
+      transition: transform 0.2s;
+      text-decoration: none;
+    }
+    .shop-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    Welcome to VIT Online Food Ordering
+  </div>
+
+  <div class="container">
+    <!-- Link to Gazebo page in the "shops" folder -->
+    <a href="shops/gazebo.html" class="shop-card">Gazebo</a>
+
+    <!-- Link to Dakshin page in the "shops" folder -->
+    <a href="shops/dakshin.html" class="shop-card">Dakshin</a>
+
+    <!-- Link to Lassi House page in the "shops" folder -->
+    <a href="shops/lassihouse.html" class="shop-card">Lassi House</a>
+
+    <!-- Link to Aavin Ice Cream page in the "shops" folder -->
+    <a href="shops/aavinicecream.html" class="shop-card">Aavin Ice Cream</a>
+
+    <!-- Link to Gym Khana page in the "shops" folder -->
+    <a href="shops/gymkhana.html" class="shop-card">Gym Khana</a>
+
+    <!-- Link to Georgia page in the "shops" folder -->
+    <a href="shops/georgia.html" class="shop-card">Georgia</a>
+
+    <!-- Link to Sri's page in the "shops" folder -->
+    <a href="shops/sris.html" class="shop-card">Sri's</a>
+
+    <!-- Link to Hot & Cool page in the "shops" folder -->
+    <a href="shops/hotandcool.html" class="shop-card">Hot & Cool</a>
+
+    <!-- Link to Domino's page in the "shops" folder -->
+    <a href="shops/dominos.html" class="shop-card">Domino's</a>
+    
+  </div>
+
+</body>
+</html>

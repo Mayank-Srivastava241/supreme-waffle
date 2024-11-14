@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIT Online Ordering - Login</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #262626;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background-color: white;
+      width: 500px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .container h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #262626;
+    }
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .login-form input {
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    .login-form input:focus {
+      border-color: #ff7043;
+      outline: none;
+    }
+    .login-form button {
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      background-color: #ff7043;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .login-form button:hover {
+      background-color: #ff5722;
+    }
+    .signup-btn {
+      width: 100%;
+      padding: 12px;
+      margin-top: 15px;
+      background-color: #00bcd4;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .signup-btn:hover {
+      background-color: #0097a7;
+    }
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>VIT Online Food Ordering</h1>
+    
+    <!-- Login Form -->
+    <form class="login-form" action="Home Page.html" method="GET">
+      <input type="text" name="phone" placeholder="Phone Number" required>
+      <input type="password" name="password" placeholder="Password" required> <!-- Password field added -->
+      <button type="submit">Login</button>
+    </form>
+    
+    <!-- Sign Up Button (redirects to registerpage.html) -->
+    <button class="signup-btn" onclick="window.location.href='registerpage.html'">Sign Up</button>
+
+    <div class="footer">
+      &copy; VIT Food Ordering
+    </div>
+  </div>
+
+</body>
+</html>
